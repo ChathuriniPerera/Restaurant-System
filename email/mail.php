@@ -16,7 +16,7 @@ function send_email($to = null, $to_name = null, $subject = null, $body = null, 
         $mail->isSMTP();                                            // Send using SMTP
         $mail->Host = 'smtp.gmail.com';                    // Set the SMTP server to send through
         $mail->SMTPAuth = true;                                   // Enable SMTP authentication
-        $mail->Username = 'emailaddress@blah.com_gonehere';                     // SMTP username
+        $mail->Username = 'emailaddress@blah.com_goeshere';                     // SMTP username
         $mail->Password = 'emailpassword_goeshere';                               // SMTP password
         //$mail->SMTPSecure = 'ssl';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
         $mail->smtpConnect(['ssl' => [
