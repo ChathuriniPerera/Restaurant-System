@@ -1,0 +1,87 @@
+.bg-login-image {
+    background: url("../icon/logo.png")!important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+body {
+    margin: 0;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000 !important;
+    text-align: left;
+    background-color: #FFF !important;
+}
+
+.btn-primary {
+    color: #FFF !important;
+    background-color: #D57030 !important;
+    border-color: #D57030 !important;
+}
+
+.badge-badge{
+    color: #FFF !important;
+     background-color: palevioletred !important;
+    border-color: palevioletred !important;
+}
+
+.badge-cancel{
+    color: #FFF !important;
+    background-color: maroon !important;
+    border-color: maroon !important;
+}
+
+.badge-confirm{
+    color: #FFF !important;
+     background-color: midnightblue !important;
+    border-color: midnightblue !important;
+}
+
+.bg-gradient-primary {
+    background-color: #8B281F !important;
+    background-image: linear-gradient(180deg,#8B281F 10%,#8B281F 100%) !important;
+    background-size: cover;
+}
+
+footer.sticky-footer.bg-white {
+    background-color: #D9DCD8!important;
+}
+
+.shadow.bg-white {
+    background-color: #D9DCD8!important;
+    /*    color:  !important;*/
+}
+
+span.text-gray-600 {
+    /*    color: #D9DCD8!important;*/
+}
+
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #6A6C6D!important;
+}
+
+/*.badge-danger {
+    color: #fff;
+    background-color: #D57030!important;
+}*/
+
+.table td, .table th {
+    font-size: 15px;
+}
+
+.order-notify{
+    position: absolute;
+    left: 95%;
+}
+
+.order-card{
+    position: absolute;
+    top: 20%
+}
+
+.ord-st-frm{
+     text-align: right;
+}
+

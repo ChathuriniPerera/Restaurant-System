@@ -1,0 +1,143 @@
+.btn-primary {
+    color: #FFF !important;
+    background-color: #D57030 !important;
+    border-color: #D57030 !important;
+}
+
+.btn-danger{
+    color: #FFF !important;
+}
+
+.carousel-inner img {
+    width: 100% !important;
+    height: 91.5vh;
+}
+
+.my-nav-bg {
+    background-color: #8B281F !important;
+}
+
+.index-nav{
+    opacity: transparant !important;
+}
+
+.navbar-brand{
+    font-size: 15px;
+}
+
+.menu-company{
+    padding-left: 5% !important;
+    padding-right: 390px !important;
+}
+
+#brand{
+    color: #fff;
+    padding-bottom: 5px;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#type-stye{
+    font-size: 25px;
+    padding-bottom:100px;   
+    overflow: hidden;
+    padding: 0.5rem;
+}
+
+.typed-text{
+    font-weight:normal;
+    color: #fff;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Permanent Marker', cursive;  
+}
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing{
+    animation: non;
+}
+
+@keyframes blink{
+    0% { background-color: #000; }
+    49% { background-color: #000; }
+    50% { background-color: transparent; }
+    99% { background-color: transparent; }
+    100% { background-color: #000; }
+}
+
+.set_success{
+    height: 90vh;
+    width: 100%;
+    filter: blur(4px);
+}
+
+.image-2{
+    position: absolute;
+    left: 0px;
+    top: 350px;
+}
+
+.top-middle{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-size: 30px;
+} 
+
+.order{
+    position: absolute;
+    left: 700px;
+    top: 200px;
+}
+
+.btn-outline-primary {
+    color: #FFF !important;
+    background-color: #D57030 !important;
+    border-color: #D57030 !important;
+}
+
+.open-time{
+    color: #8B281F;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.cus_login{
+    position: absolute;
+    left: 35%;
+    top: 15%;
+}
+
+.cus_register{
+    left: 25%;
+    top: 15%;
+}
+
+.order-card{
+    left: 2.5%;
+}
+
+.center-cart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 39%;
+}
+
+.badge-cancel{
+    color: #FFF !important;
+    background-color: maroon !important;
+    border-color: maroon !important;
+}
+
