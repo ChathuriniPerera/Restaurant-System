@@ -27,7 +27,7 @@ function send_email($to = null, $to_name = null, $subject = null, $body = null, 
         ]);
         $mail->Port = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
         //Recipients
-        $mail->setFrom('ishadichathurini@gmail.com', 'Taste of Ceylon');
+        $mail->setFrom('emailaddress@gmail.com_goeshere', 'companyname_goeshere');
         $mail->addAddress($to, $to_name);     // Add a recipient
         // Name is optional
         $mail->addReplyTo('info@example.com', 'Information');
